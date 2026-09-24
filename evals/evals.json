@@ -1,0 +1,7 @@
+{
+  "skill_name": "game-bootstrap",
+  "evals": [
+    {"id": 1, "prompt": "/game-bootstrap --plan new idle tycoon game called Pocket Bakery by Sugar Studio, iOS and Android, portrait, has IAP and purchasable gems, long progression", "expected_output": "Rundown that recommends platform cloud saves or a backend (never local only) because IAP plus purchasable currency, lists the scaffold files, descriptor values with namespace PocketBakery and bundle id com.sugarstudio.pocketbakery, Expand scaler mode at 1080x1920, and writes nothing.", "files": [], "expectations": ["Save scheme is not local-only and the reason cites IAP or purchasable currency", "Namespace PocketBakery and a bundle id derived from company and name appear", "File list includes GameConstants.cs, SaveSystem.cs, Analytics.cs, SafeAreaFitter.cs, BuildRequestPoller.cs, CLAUDE.md and game-project.json", "No files are written in plan-only mode"]},
+    {"id": 2, "prompt": "adopt my existing Unity project at ~/Projects/SomeGame into the playbook, plan only", "expected_output": "Adopt mode: lists what would be added versus what exists, states that nothing is overwritten and differing files get a .bootstrap-new twin, asks the save questions if the descriptor is missing.", "files": [], "expectations": ["Identifies adopt mode", "States the never-overwrite rule and the .bootstrap-new behaviour", "Asks or answers the SOP section 13 save questions"]}
+  ]
+}
