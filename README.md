@@ -4,10 +4,18 @@ Scaffold a Unity mobile game project with the conventions that prevent silent bu
 
 A Claude Code skill. Install it once per machine and type the slash command in any Unity project session.
 
-```
+```bash
 /game-bootstrap new idle tycoon game called Pocket Bakery by Sugar Studio, iOS and Android, portrait
 /game-bootstrap --plan adopt this project into the playbook
 ```
+
+## Architectural Reference & Production Case Studies
+
+The mobile game scaffolding conventions and state-machine patterns enforced by `game-bootstrap` are documented in:
+
+- **Case Study**: [How I Built Bird Sort Mania in Unity in 20 Days](https://www.eshannaithani.com/blogs/how-i-built-a-production-ready-unity-game-in-20-days-using-ai?utm_source=github&utm_medium=repo&utm_campaign=game_bootstrap) — Architecture breakdown of a commercial 3D puzzle game shipped across Android (Google Play) and WebGL (GamePix) on a 20-day timeline.
+- **Engineering Guide**: [Unity 6 Mobile Game Optimization Guide](https://www.eshannaithani.com/blogs/unity-mobile-game-optimization-guide?utm_source=github&utm_medium=repo&utm_campaign=game_bootstrap) — Practical CPU/GPU bottleneck triage, GC elimination, and URP batching.
+- **Studio Portfolio**: [Eshan Naithani — Unity Game Development Services](https://www.eshannaithani.com/services/unity-game-development?utm_source=github&utm_medium=repo&utm_campaign=game_bootstrap)
 
 ## Requirements
 
